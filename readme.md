@@ -1,4 +1,4 @@
-# CSV AI Streamlit app
+# CSV AI, Streamlit app
 
 ## Requirements
 
@@ -12,8 +12,10 @@ From a command line opened in the project folder, run the following:
 1. Set an virtual environment (e.g. `python3 -m venv venvAIStreamlit`)
 2. Then, activate the virtual environment `source venvGPT/bin/activate`
 3. Finally, install the dependencies with Pip3 `pip3 install -r requirements.txt`
-4. Run `app_csv.py` through Streamlit by typing `streamlit run app_csv.py`
+4. Open `app_csv.py`. Search for `env["OPENAI_API_KEY"]`. Replace `sk-xxx` by [your OpenAI API key](https://platform.openai.com/account/api-keys).
+5. Run `app_csv.py` through Streamlit by typing `streamlit run app_csv.py`
 
+Enjoy! 😊
 
 ## The author
 
